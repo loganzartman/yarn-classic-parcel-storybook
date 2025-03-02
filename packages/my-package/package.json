@@ -1,0 +1,36 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "parcel watch",
+    "build": "parcel build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@parcel/config-storybook": "^0.0.2",
+    "@parcel/packager-ts": "2.13.3",
+    "@parcel/transformer-typescript-types": "2.13.3",
+    "@storybook/addon-essentials": "7.6.20",
+    "@storybook/addon-interactions": "7.6.20",
+    "@storybook/addon-links": "7.6.20",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "7.6.20",
+    "@storybook/react": "7.6.20",
+    "@storybook/test": "7.6.20",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "parcel": "^2.13.3",
+    "storybook": "7.6.20",
+    "storybook-react-parcel": "^0.0.1",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {
+    "react": "18",
+    "react-dom": "18"
+  }
+}
